@@ -1,0 +1,132 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: #e3e3e3;
+}
+.container{
+  width: 500px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.form-row{
+  display: flex;
+  padding: 10px;
+}
+
+.form-row label{
+  padding-right: 10px;
+}
+
+.form-row input{
+  flex: 1
+}
+
+.three-columns{
+  margin-top: 10px;
+  background-color: #fff;
+  padding: 10PX;
+  display: flex;
+}
+
+.left-column{
+  flex: 1 1 0;
+  order: 1;
+  margin: 5px;
+  padding: 5px;
+}
+.middle-column{
+  flex: 2 1 0;
+  order: 2;
+  margin: 5px;
+  padding: 5px;
+}
+.right-column{
+  flex: 1 1 0;
+  order: 3;
+  margin: 5px;
+  padding: 5px;
+}
+
+.features-container{
+  padding: 10px;
+  background-color: #fff;
+  margin: 10px;
+}
+.feature{
+  border-radius: 10px;
+  background: linear-gradient(0deg, rgba(242,185,237,1) 0%, rgba(188,34,195,1) 100%);
+  box-sizing: border-box;
+  padding: 5px;
+  order: 1;
+  flex-basis: 30%;
+}
+
+.features-container:nth-child(1) {background: linear-gradient(90deg, rgba(73,73,209,1) 0%, rgba(0,212,255,1) 100%);}
+
+@media (min-width: 700px){
+  .features-container{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.numbers-container{
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.number{
+  color: #fff;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 100px;
+  background: linear-gradient(0deg, rgba(14,233,242,1) 0%, rgba(112,111,209,1) 100%);}
+
+.banner{
+  margin: 10px auto;
+  height: 300px;
+  width: 500px;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, rgba(75,209,73,1) 0%, rgba(0,255,183,1) 100%);
+  color: #fff;
+}
+ 
+.two-columns{
+  background-color: #fff;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.first-column{
+  flex: 1;
+}
+.second-column{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-1{
+  flex: 1;
+  background-color: #d1c349;
+}
+
+.item-2{
+  flex: 1;
+  background-color: #d1e20b;
+}
+
+.second-column:nth-child(2){background-color: #d1c349;}
