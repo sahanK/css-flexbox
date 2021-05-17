@@ -155,7 +155,7 @@ body{
   margin: 10px 30px;
 }
 .navbar-2 > *{
-  flex-basis: 50px;
+  flex-basis: auto;
   text-align: center;
   padding: 5px;
 }
