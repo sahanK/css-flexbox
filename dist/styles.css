@@ -195,13 +195,28 @@ body{
   display: flex;
   justify-content: space-between;
 }
+.navbar-child-1{
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: flex-start;
+}
+.navbar-child-2{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.navbar-child-3{
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
 .navbar-4 > *:hover{
   background-color: #9966ff;
 }
 .navbar-4-item-1{
   background-color: #4c00e6;
   padding: 5px;
-  flex-basis: 50px;
+  flex-basis: 250px;
   text-align: center;
 }
 .navbar-4-item-2{
