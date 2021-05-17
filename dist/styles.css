@@ -186,3 +186,33 @@ body{
 .navbar-3-item-2{
   margin-left: auto;
 }
+
+.navbar-4{
+  background-color: #8A2BE2;
+  color: #fff;
+  height: 30px;
+  margin: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-4 > *:hover{
+  background-color: #9966ff;
+}
+.navbar-4-item-1{
+  background-color: #4c00e6;
+  padding: 5px;
+  flex-basis: 50px;
+  text-align: center;
+}
+.navbar-4-item-2{
+  background-color: #ff0055;
+  padding: 5px;
+  flex-basis: 20px;
+  text-align: center;
+}
+.navbar-4-item-3{
+  background-color: #00cc66;
+  padding: 5px;
+  flex-basis: 10px;
+  text-align: center;
+}
